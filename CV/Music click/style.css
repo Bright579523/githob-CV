@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    background: rgb(215, 240, 172);
+    background-image: url("image/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #80dcfb;
+    text-shadow: 3px 0 #f9ceab;
+    margin-bottom: 20px;
+}
+
+footer {
+    color: #f460be;
+    font-size: 3rem;
+  }
+
+.top-title{
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.a{
+    background-image: url("image/whale.png");
+    background-size: cover;
+}
+
+.s{
+    background-image: url("image/panda.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.d{
+    background-image: url("image/lake.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.f{
+    background-image: url("image/agriculture.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.g{
+    background-image: url("image/violin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.h{
+    background-image: url("image/night_sky.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.song_box{
+    border: 5px solid #b2eeb0;
+    border-radius: 15px;
+    font-size: 4rem;
+    display: inline-block;
+    line-height: 2;
+    width: 25%;
+    height: 150px;
+    color: brown;
+    text-align: center;
+    margin: 10px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #f9df90;
+    opacity: 0.5;
+  }
+
+    
+

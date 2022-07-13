@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: fantasy;
+  font-family: 'Patrick Hand', cursive;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #7344a5;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #7344a5;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h3,a  {
+  color: #11999E;
+}
+
+hr {
+  width: 5%;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #eddaff;
+  position: relative;
+  padding-top: 50px;
+}
+
+.top-moon {
+  width: 100px;
+  position: absolute;
+  right: 350px;
+  top: 45px;
+}
+
+.bottom-star {
+  width: 70px;
+  position: absolute;
+  left: 400px ;
+  top: 250px;
+}
+
+.programmer-pic{
+  width: 350px;
+}
+
+.jpText{
+  width: 30%;
+  margin: auto;
+  color: #5d9feb;
+}
+
+.middle-container {
+  margin: 50px 0;
+  height: 100%;
+}
+
+.myIntro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: auto;
+}
+
+.skill-pic {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-right: 35px;
+}
+
+.hobby-pic {
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-left: 35px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto ;
+  text-align: left;
+}
+
+.contant-message {
+  width: 30%;
+  margin: 40px auto 50px;
+}
+
+.btn {
+  background: #34d9cb;
+  background-image: -webkit-linear-gradient(top, #34d9cb, #a36be3);
+  background-image: -moz-linear-gradient(top, #34d9cb, #a36be3);
+  background-image: -ms-linear-gradient(top, #34d9cb, #a36be3);
+  background-image: -o-linear-gradient(top, #34d9cb, #a36be3);
+  background-image: linear-gradient(to bottom, #34d9cb, #a36be3);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Patrick Hand', cursive;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #34d9cb;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: rgb(164, 244, 250);
+  padding: 50px 0 20px 0;
+}
+.footer-link {
+  color: #11999E;
+  margin:  20px 60px;
+}
+
+.right {
+  color: #391d4e;
+  font-size: 0.75rem;
+  padding: 10px;
+}
